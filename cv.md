@@ -21,6 +21,7 @@ My name is Fazliddin Abdazimov. I am 20. I was born on the 27th of november 2001
 - CSS
 - JS
 - C++ Basics
+- Photoshop
 
 ## Code example:
 
