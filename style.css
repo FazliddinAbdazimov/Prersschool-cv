@@ -175,3 +175,65 @@ body {
 }
 /* ABOUT ME */
 
+/* SKILLS SECTION */
+.skills-section {
+    width: 380px;
+    background: #fff;
+    margin: 150px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 20px 25px rgba(58, 55, 55, 0.3);
+    float: left;
+}
+
+@keyframes Load{
+    from {
+        width: 0%;
+    }
+}
+
+.skills {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.skills li h5 {
+    margin-bottom: 10px;
+}
+
+.bar {
+    height: 18px;
+    background-color: #eee;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.bar::before {
+    content: "";
+    background-color: #05364E;
+    display: inline-block;
+    padding: 8px;
+    animation: Load 3s 0s;
+    border-radius: inherit;
+}
+
+.bar.bar1::before {
+    width: calc(80% - 10px);
+}
+.bar.bar2::before {
+    width: calc(80% - 10px);
+}
+.bar.bar3::before {
+    width: calc(15% - 10px);
+}
+.bar.bar4::before {
+    width: calc(40% - 10px);
+}
+.bar.bar5::before {
+    width: calc(60% - 10px);
+}
+.bar.bar6::before {
+    width: calc(45% - 10px);
+}
+/* SKILLS SECTION */
