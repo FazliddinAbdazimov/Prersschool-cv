@@ -1,6 +1,10 @@
 /* CORE SECTION */
-    .container {
-        width: 1200px;
-        margin: 0 auto;
-    }
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
 /* CORE SECTION */
