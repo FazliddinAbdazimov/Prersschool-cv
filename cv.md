@@ -1,7 +1,3 @@
-### [rsschool-cv](https://github.com/FazliddinAbdazimov/rsschool-cv)
-
----
-
 # Fazliddin Abdazimov
 
 ---
