@@ -321,3 +321,21 @@ body {
     opacity: 1;
 }
 /* PROJECTS SECTION */
+
+/* EDUCATION */
+.education-section {
+    margin-bottom: 50px ;
+}
+
+span {
+    background-color: #05364E;
+    border-radius: 8px;
+    padding: 8px;
+    color: #fff;
+}
+
+.education-items li{
+    text-decoration: none;
+    display: inline-block;
+}
+/* EDUCATION */
