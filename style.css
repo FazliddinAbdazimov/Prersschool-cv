@@ -16,6 +16,32 @@ body {
 .clearfix {
     clear: both;
 }
+
+.heading {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #797979;
+    letter-spacing: 2px;
+    margin-bottom: 1.25rem; /*20px*/
+}
+
+.title {
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #05364d;
+    margin-bottom: 1.25rem;
+    margin-top: 0;
+}
+
+.description {
+    color: #797979;
+    font-size: 14;
+    font-weight: 300;
+    line-height: 28px;
+    margin-top: 0.32rem; /*5px*/
+}
 /* CORE SECTION */
 
 /* HEADER SECTION */
@@ -134,5 +160,17 @@ body {
     float: left;
 }
 
+.about-me-info {
+    margin-top: 5rem;/*80px*/
+}
 
+.about-me-image img {
+    width: 95%;
+}
+
+.description abbr {
+    text-decoration: none;
+    font-weight: 600;
+    color: #05364E;
+}
 /* ABOUT ME */
