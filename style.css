@@ -137,9 +137,13 @@ body {
     text-decoration: none;
 }
 
+.main-section-social-networks {
+    padding-left: 0;
+}
+
 .main-section-social-networks a {
     color: #8FA1AA;
-    font-size: 1.5rem;/*24px*/
+    font-size: 1.8rem;/*24px*/
     display: inline-block;
     margin-top: 1.25rem;/*20px*/
     margin-right: 1rem;/*16px*/
@@ -180,7 +184,8 @@ body {
 .skills-section {
     width: 70%;
     background: #fff;
-    margin: 150px auto;
+    margin: 100px auto;
+    margin-top: 200px;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 2px 20px 25px rgba(58, 55, 55, 0.3);
@@ -242,7 +247,8 @@ body {
 .code-example {
     width: 70%;
     background: #fff;
-    margin: 150px;
+    margin: 100px auto;
+    margin-top: 200px;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 2px 20px 25px rgba(58, 55, 55, 0.3);
@@ -260,7 +266,6 @@ body {
 }
 
 .project-items {
-    margin-top: 3.125rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -269,7 +274,7 @@ body {
 .project-item img {
     width: 100%;
     height: 100%;
-    border-radius: 8px;
+    /* border-radius: 8px; */
 }
 
 .project-item {
@@ -279,7 +284,7 @@ body {
     float: left;
     margin-bottom: 3rem;
     box-shadow: 2px 20px 25px rgba(58, 55, 55, 0.3);
-    border-radius: 8px;
+    /* border-radius: 8px; */
 }
 
 .project-item-overlay {
@@ -289,7 +294,7 @@ body {
     height: 100%;
     width: 100%;
     z-index: 1;
-    border-radius: 8px;
+    /* border-radius: 8px; */
     transition: all 0.4s ease 0s;
 }
 
@@ -306,14 +311,17 @@ body {
 }
 
 .project-item-info a {
-    font-size: 1.125rem;
+    font-size: 30px;
     text-decoration: none;
     color: #fff;
 }
 
 .project-item:hover .project-item-overlay {
     visibility: visible;
-    background: rgba(19, 69, 230, 0.9);
+    /* background: rgba(19, 69, 230, 0.9); */
+    background: rgba(5, 54, 78, 0.9);
+    top: 20px;
+    left: 20px;
 }
 
 .project-item:hover .project-item-info {
@@ -323,6 +331,13 @@ body {
 /* PROJECTS SECTION */
 
 /* EDUCATION */
+.edu-lan {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 100px 0;
+}
+
 .education-section {
     margin-bottom: 50px ;
 }
@@ -339,6 +354,7 @@ span {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 0px;
 }
 
 .education-item {
