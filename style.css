@@ -182,7 +182,7 @@ body {
 
 /* SKILLS SECTION */
 .skills-section {
-    width: 70%;
+    width: 90%;
     background: #fff;
     margin: 100px auto;
     margin-top: 200px;
@@ -245,7 +245,7 @@ body {
 
 /* CODE SECTION */
 .code-example {
-    width: 70%;
+    width: 90%;
     background: #fff;
     margin: 100px auto;
     margin-top: 200px;
@@ -269,22 +269,20 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .project-item img {
     width: 100%;
     height: 100%;
-    /* border-radius: 8px; */
 }
 
 .project-item {
     position: relative;
     width: 45%;
     height: 25rem;
-    float: left;
     margin-bottom: 3rem;
     box-shadow: 2px 20px 25px rgba(58, 55, 55, 0.3);
-    /* border-radius: 8px; */
 }
 
 .project-item-overlay {
@@ -294,7 +292,6 @@ body {
     height: 100%;
     width: 100%;
     z-index: 1;
-    /* border-radius: 8px; */
     transition: all 0.4s ease 0s;
 }
 
@@ -318,7 +315,6 @@ body {
 
 .project-item:hover .project-item-overlay {
     visibility: visible;
-    /* background: rgba(19, 69, 230, 0.9); */
     background: rgba(5, 54, 78, 0.9);
     top: 20px;
     left: 20px;
@@ -335,6 +331,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin: 100px 0;
 }
 
@@ -416,5 +413,93 @@ span {
 /* FOOTER */
 
 /* RESPONSIVE */
+/* hamburger-menu */
+@media only screen and (max-width: 991px){
+    .container {
+        width: 95%;
+    }
 
+    .main-navigation {
+        display: none;
+    }
+
+    .main-section-img {
+        display: none;
+    }
+
+    .about-me-info {
+        margin-top: 0;
+    }
+
+    .skills-section {
+        margin-top: 100px;
+    }
+
+    .code-example {
+        margin-top: 100px;
+    }
+
+    .project-item {
+        width: 100%;
+        height: auto;
+    }
+
+    .my-projects {
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .container {
+        width: 92%;
+    }
+
+    .main-section > div {
+        width: 100%;
+    }
+
+    .about-me-image img{
+        width: 100%;
+    }
+
+    .about-me > div {
+        width: 100%;
+    }
+    .edu-lan {
+        justify-content: start;
+    }
+
+    .skills-section {
+        width: 80%;
+    }
+
+    .code-example {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .code {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .container {
+        width: 90%;
+    }
+
+    .main-section {
+        padding: 0 10px;
+    }
+
+    html {
+        font-size: 12px;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+}
 /* RESPONSIVE */
